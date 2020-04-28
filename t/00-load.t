@@ -4,11 +4,7 @@ use strict;
 use warnings;
 use Test::More;
 
-use lib '../lib';
-
 use Yahoo::Finance;
-
-plan tests => 4;
 
 BEGIN {
     use_ok( 'Yahoo::Finance' ) || print "Bail out!\n";

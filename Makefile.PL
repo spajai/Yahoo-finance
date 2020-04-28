@@ -7,7 +7,7 @@ my %WriteMakefileArgs = (
     NAME               => 'Yahoo::Finance',
     AUTHOR             => q{Sushrut Pajai <spajai@cpan.org>},
     VERSION_FROM       => 'lib/Yahoo/Finance.pm',
-    ABSTRACT_FROM      => 'lib/Yahoo/Finance.pm',
+    ABSTRACT           => '2020 Yahoo::Finance',
     LICENSE            => 'artistic_2',
     MIN_PERL_VERSION   => '5.006',
     CONFIGURE_REQUIRES => {
@@ -16,7 +16,16 @@ my %WriteMakefileArgs = (
     TEST_REQUIRES => {
         'Test::More' => '0',
     },
-
+    META_MERGE => {
+        "meta-spec" => { version => 2 },
+        resources => {
+            repository => {
+                type => 'git',
+                url  => 'git://github.com/spajai/Yahoo-finance.git',
+                web  => 'https://github.com/spajai/Yahoo-finance.git',
+            },
+        },
+    },
     PREREQ_PM => {
         'DateTime'       => '0',
         'Test::More'     => '0',
