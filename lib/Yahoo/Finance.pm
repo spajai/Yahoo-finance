@@ -44,7 +44,7 @@ $DEFAULT{timeout} = 60;
 # Set version
 ############################################################
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 =head1 SYNOPSIS
 
@@ -329,7 +329,7 @@ L<https://metacpan.org/release/Yahoo-Finance>
 
 =head1 LICENSE AND COPYRIGHT
 
-This software is Copyright (c) 2020 by Sushrut Pajai.
+This software is Copyright (c) 2022 by Sushrut Pajai.
 
 This is free software, licensed under:
 
