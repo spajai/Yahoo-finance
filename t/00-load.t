@@ -39,7 +39,7 @@ diag( "Testing Yahoo::Finance $Yahoo::Finance::VERSION, Perl $], $^X" );
 {
     my $finance = Yahoo::Finance->new();
  
-    is($finance->VERSION,'0.01','Version test');
+    is($finance->VERSION,'0.02','Version test');
  
 }
 
