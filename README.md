@@ -47,7 +47,7 @@ You can also look for information at:
 
 LICENSE AND COPYRIGHT
 
-This software is Copyright (c) 2020 by Sushrut Pajai.
+This software is Copyright (c) 2022 by Sushrut Pajai.
 
 This is free software, licensed under:
 
